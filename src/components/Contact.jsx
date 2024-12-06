@@ -56,3 +56,33 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+/>
+          {errors.name && <p className="error">{errors.name}</p>}  {/* Display name error */}
+        </div>
+        <div className="form-group">
+          <label>Email address:</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p className="error">{errors.email}</p>}   {/* Display email error */}
+        </div>
+        <div className="form-group">
+          <label>Message:</label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+          />
+          {errors.message && <p className="error">{errors.message}</p>}    {/* Display message error */}
+        </div>
+        <button type="submit">Submit</button>    {/* Submit button */}
+      </form>
+    </div>
+  );
+};
+
+ // Export the Contact component
+export default Contact;
