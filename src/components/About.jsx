@@ -1,4 +1,3 @@
-// Importing the React library to use JSX and create a functional component
 import React from "react";
 
 const About = () => {
@@ -14,5 +13,4 @@ const About = () => {
   );
 };
 
-// Exporting the About component to be used in other parts of the application
 export default About;
