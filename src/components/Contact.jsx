@@ -10,3 +10,13 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  // Initialize errors state to store validation error messages
+  const [errors, setErrors] = useState({});
+
+
+  // Handle input changes and update formData state
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
