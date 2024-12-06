@@ -34,3 +34,25 @@ const Contact = () => {
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
+
+    // Handle form submission 
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Prevent default form submission behavior
+        if (validate()) { // Validate form inputs
+          alert("Message sent successfully!"); // Show success message
+          setFormData({ name: "", email: "", message: "" }); // Reset form inputs
+          setErrors({}); // Clear error messages
+        }
+      };
+    
+      return (
+        <div className="contact">
+          <h1>Contact</h1>
+          <form onSubmit={handleSubmit} className="form">
+            <div className="form-group">
+              <label>Name:</label>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
