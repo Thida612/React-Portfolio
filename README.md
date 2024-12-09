@@ -1,6 +1,17 @@
 # React-Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br>
+<br>
+<br>
+## Demo
+https://thida-reactportfolio.netlify.app
+<br>
+<br>
 
+![Screenshot 1](public/screenshot1.png)<br><br><br>
+![Screenshot 2](public/screenshot2.png)<br><br><br>
+![Screenshot 3](public/screenshot3.png)<br><br><br>
+![Screenshot 4](public/screenshot4.png)<br><br><br><br>
 
 
 ## User Story
@@ -112,4 +123,4 @@ N/A
 * Github: Thida612
 
 
-## Demo
+
