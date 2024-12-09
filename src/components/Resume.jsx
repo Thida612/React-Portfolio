@@ -15,6 +15,16 @@ const Resume = () => {
           <li>JavaScript</li>
           <li>jQuery</li>
           <li>Responsive Design</li>
+          </ul>
+          <h2>Back-end Proficiencies</h2>
+        <ul>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MySQL, Sequelize</li>
+          <li>MongoDB</li>
+          <li>RESTful APIs</li>
+          <li>GraphQL</li>
+  
         </ul>
       </div>
     </div>

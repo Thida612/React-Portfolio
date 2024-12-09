@@ -48,6 +48,7 @@ const Contact = () => {
       return (
         <div className="contact">
           <h1>Contact</h1>
+          <p>Email: Angelic722@gmail.com</p>
           <form onSubmit={handleSubmit} className="form">
             <div className="form-group">
               <label>Name:</label>
